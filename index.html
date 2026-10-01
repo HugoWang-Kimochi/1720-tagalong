@@ -1,134 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pickleball Tag Along</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apply | Talent Studio</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
 
-  <!-- STYLESHEETS -->
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/small.css" />
-  <link rel="stylesheet" href="styles/larger.css" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- GOOGLE FONT -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- OPEN GRAPH TAGS -->
 
-  <!-- OPEN GRAPH TAGS -->
-  <meta property="og:title" content="Apply | Talent Studio" />
-  <meta property="og:description"
-    content="Find your next creative opportunity. Join Talent Studio’s network of designers and developers and share your skills and portfolio." />
-  <meta property="og:image" content="https://hugowang-kimochi.github.io/1720-hireme/images/opengraph.jpg" />
-  <meta property="og:url" content="https://hugowang-kimochi.github.io/1720-hireme//" />
-  <meta property="og:logo" content="https://hugowang-kimochi.github.io/1720-hireme/images/logo.svg" />
-  <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pickleball Tag Along" />
+    <meta
+      property="og:description"
+      content="Join friends for a fun and beginner-friendly pickleball activity in Provo."
+    />
+    <meta
+      property="og:image"
+      content="https://hugowang-kimochi.github.io/1720-tagalong/images/opengraph.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://hugowang-kimochi.github.io/1720-tagalong/"
+    />
+    <meta
+      property="og:logo"
+      content="https://hugowang-kimochi.github.io/1720-tagalong/images/house-heart-fill.svg"
+    />
+    <meta property="og:type" content="website" />
 
-  <!-- FAV ICON LINKS-->
-  <link rel="icon" type="image/png" href="/1720-hireme/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/1720-hireme/favicon.svg" />
-  <link rel="shortcut icon" href="/1720-hireme/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/1720-hireme/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Hire Me" />
-  <link rel="manifest" href="/1720-hireme/site.webmanifest" />
-
-  <!-- SCRIPTS -->
-  <script src="scripts/navigation.js" defer></script>
-  <script src="scripts/year.js" defer></script>
-</head>
-
-<body>
-  <header>
-    <img src="images/logo.svg" alt="Site Logo" width="131" height="50" loading="lazy" />
-    <button id="hamburger" class="hamburger" aria-label="Nav Link Button"></button>
-  </header>
-  <nav id="navbar">
-    <ul>
-      <li><a href="#">CANDIDATES</a></li>
-      <li><a href="#">EMPLOYERS</a></li>
-      <li><a href="#">SERVICES</a></li>
-      <li><a href="#">ABOUT US</a></li>
-      <li class="active"><a href="index.html">APPLY</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>Apply</h1>
-
-    <div class="apply-intro">
-      <h2>Your next creative opportunity starts here.</h2>
-      <p>
-        Join Talent Studio’s network of designers and developers.
-        Tell us about yourself and share your portfolio.
-      </p>
-
-      <ul class="job-tags">
-        <li>Front-End Development</li>
-        <li>Full-Stack Development</li>
-        <li>Web Design</li>
-        <li>UX/UI Design</li>
+    <!-- FAV ICON LINKS-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/1720-tagalong/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/1720-tagalong/favicon.svg" />
+    <link rel="shortcut icon" href="/1720-tagalong/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/1720-tagalong/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Tag Along" />
+    <link rel="manifest" href="/1720-tagalong/site.webmanifest" />
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/person-walking-solid-full.svg"
+        alt="Site Logo"
+        width="16"
+        height="16"
+      />
+      <span>Tag Along</span>
+      <button
+        id="hamburger"
+        class="hamburger"
+        aria-label="Nav Link Button"
+      ></button>
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li class="active"><a href="index.html">Pickleball</a></li>
+        <li><a href="#">Game Night</a></li>
+        <li><a href="#">Hiking</a></li>
+        <li><a href="#">Baking</a></li>
       </ul>
-    </div>
+    </nav>
+    <main>
+      <h1>Pickleball with Friends</h1>
 
-    <p class="required-note">Fields marked with * are required.</p>
+      <div class="hero">
+        <picture>
+          <source
+            media="(max-width: 610px)"
+            srcset="images/hero-small-610.webp"
+          />
+          <source
+            media="(max-width: 900px)"
+            srcset="images/hero-medium-900.webp"
+          />
+          <img src="images/hero-large-1200.webp" alt="PickelBall Game" />
+        </picture>
+        <a href="#">Ask to Join</a>
+      </div>
 
-    <form action="results.html" method="get">
-      <label>First Name *
-        <input type="text" name="first" required autocomplete="given-name" placeholder="First Name">
-      </label>
+      <!-- DESCRIPTION -->
+      <section class="activity-info">
+        <h2>Description</h2>
 
-      <label>Last Name *
-        <input type="text" name="last" required autocomplete="family-name" placeholder="Last Name">
-      </label>
+        <p>
+          Pickleball is a fun and social paddle sport that combines elements of
+          tennis, badminton, and table tennis. It is easy for beginners to learn
+          and is a great activity to enjoy with friends. Join us for a casual
+          game where all skill levels are welcome.
+        </p>
+      </section>
 
-      <label>Cell Phone *
-        <input type="tel" name="phone" required autocomplete="tel" placeholder="805-123-5678">
-      </label>
+      <!-- ACTIVITY DETAILS -->
+      <section id="details" class="activity-info">
+        <h2>Cost</h2>
+        <p>Free. Paddles and pickleballs will be provided.</p>
 
-      <label>Email *
-        <input type="email" name="email" required autocomplete="email" placeholder="example@gmail.com">
-      </label>
+        <h2>When</h2>
+        <p>Saturday at 10:00 a.m.</p>
 
-      <label>Portfolio URL *
-        <input type="url" name="url" required autocomplete="url" placeholder="https://yourname.github.io">
-      </label>
+        <h2>Where</h2>
+        <p>Meet at the pickleball courts in Provo, Utah.</p>
 
-      <label>Applying As *
-        <select name="who" required>
-          <option value="">Select a position</option>
-          <option value="Front-End Developer">Front-End Developer</option>
-          <option value="Full-Stack Developer">Full-Stack Developer</option>
-          <option value="Web Designer">Web Designer</option>
-          <option value="UX/UI Designer">UX/UI Designer</option>
-        </select>
-      </label>
+        <h2>What to Bring</h2>
+        <p>
+          Wear comfortable athletic shoes and bring water. You may also bring
+          your own paddle if you have one.
+        </p>
+      </section>
 
-      <label>Comments (optional)
-        <textarea name="comments" rows="5" placeholder="Tell us about your skills and interests"></textarea>
-      </label>
+      <!-- VIDEO -->
+      <video controls poster="media/poster.webp" width="1280" height="720">
+        <source src="media/invitation.mp4" type="video/mp4" />
+        <source src="media/invitation.webm" type="video/webm" />
+        <track
+          label="English"
+          kind="subtitles"
+          srclang="en"
+          src="media/captions-en.vtt"
+          default
+        />
 
-      <input type="submit" value="Apply Now">
-    </form>
-  </main>
+        <track
+          label="Chinese"
+          kind="subtitles"
+          srclang="zh"
+          src="media/captions-zh.vtt"
+        />
+      </video>
+      <details>
+        <summary>Video Transcript</summary>
+        <p>
+          Hello everyone. Today I want to invite you to play pickleball with me.
+          Pickleball is a fun and social sport that combines parts of tennis,
+          badminton, and table tennis. It's easy to learn. So you don't need to
+          you don't need any experience to join us. We will meet this Saturday
+          at 10:00 in morning in the morning at a pickleball court in Provo. I
+          will bring the paddles and picks so you don't you so you only need to
+          bring water and wear comfortable shoes. Pickleball is a great way to
+          exercise, spend time with friends, and meet new people. The most
+          important thing is to relax and have fun. I hope you tag along and
+          play with us. Would you love to see you there? We uh we would love to
+          see you there. See you on the court.
+        </p>
+      </details>
+    </main>
 
-  <footer>
-    <div class="social">
-      <a href="https://github.com/HugoWang-Kimochi" target="_blank"><img src="images/icon-github.svg" alt="GitHub Icon"
-          width="16" height="16" /></a>
+    <footer>
+      <div class="social">
+        <a href="https://github.com/HugoWang-Kimochi" target="_blank"
+          ><img
+            src="images/icon-github.svg"
+            alt="GitHub Icon"
+            width="16"
+            height="16"
+        /></a>
 
-      <a href="https://www.linkedin.com/in/hugo-wang-6576a442b/" target="_blank"><img src="images/icon-linkedin.svg"
-          alt="Linked In Icon" width="16" height="16" /></a>
+        <a
+          href="https://www.linkedin.com/in/hugo-wang-6576a442b/"
+          target="_blank"
+          ><img
+            src="images/icon-linkedin.svg"
+            alt="Linked In Icon"
+            width="16"
+            height="16"
+        /></a>
 
-      <a href="https://www.youtube.com/@LofiGirl" target="_blank"><img src="images/icon-youtube.svg" alt="Youtube Icon"
-          width="16" height="16" /></a>
+        <a href="https://www.youtube.com/@LofiGirl" target="_blank"
+          ><img
+            src="images/icon-youtube.svg"
+            alt="Youtube Icon"
+            width="16"
+            height="16"
+        /></a>
 
-      <a href="https://www.facebook.com/profile.php?id=100000317223996" target="_blank"><img
-          src="images/icon-facebook.svg" alt="Facebook Icon" width="16" height="16" /></a>
-    </div>
-    <p>
-      &copy; <span id="currentyear"></span> &bull; Hugo Wang &bull; DWDD1720
-    </p>
-  </footer>
-</body>
-
+        <a
+          href="https://www.facebook.com/profile.php?id=100000317223996"
+          target="_blank"
+          ><img
+            src="images/icon-facebook.svg"
+            alt="Facebook Icon"
+            width="16"
+            height="16"
+        /></a>
+      </div>
+      <p>
+        &copy; <span id="currentyear"></span> &bull; Hugo Wang &bull; DWDD1720
+      </p>
+    </footer>
+  </body>
 </html>
